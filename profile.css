@@ -1,0 +1,218 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    
+	font-family: arial;
+    font-size: 14px;
+    margin:auto;
+}
+
+#nav{
+    background:#B84B9E;
+    width:100%;
+    
+}
+#nav ul li{
+    display:inline;
+    
+}
+#nav ul li a {
+    display:inline-block;
+    padding: 15px 30px;
+	color: #fff;
+	font-size: 18px;
+    text-decoration: none;
+    
+}
+#nav ul li a:hover{
+    background: #FF6EB0;
+}
+#header {
+    background:lightblue;
+}
+#pic {
+    width:100%;
+    text-align: center;
+}
+
+#pic img{
+    border-radius:30px;
+    width:18%;
+    margin-top:40px;
+    
+    margin-bottom:30px;
+    
+}
+#name p{
+    font-size: 31px;
+	font-weight: bold;
+    color:#9F6164;
+    text-align:center;
+    padding-bottom:20px;
+    
+}
+#main1 {
+    background: #F8DEBD;
+    width:100%;
+}
+#main1 h2{
+    color:#6F3662;
+    font-size:29px;
+    font-family: arial;
+    font-weight:bold;
+    text-align:center;
+    padding:20px;
+}
+#main1 p{
+    color:gray;
+    text-align:center;
+    font-size:25px;
+    font-family: arial;
+    font-weight:bold;
+    margin-left:20px;
+    margin-right:20px;
+
+    padding:20px;
+}
+#main2 {
+    background: #FF7182;
+    width:100%;
+}
+#main2 h2{
+    color:#6F3662;
+    font-size:29px;
+    font-family: arial;
+    font-weight:bold;
+    text-align:center;
+    padding:20px;
+}
+#main2 ul li{
+    font-size:15px;
+    color:#000;
+    background: #cce5ff;
+    margin:5px;
+    padding:5px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+}
+#footer {
+    background:#8ED2C9;
+    width:100%;
+}
+#footer h2{
+    color:#6F3662;
+    font-size:29px;
+    font-family: arial;
+    font-weight:bold;
+    text-align:center;
+    padding:20px;
+
+}
+#left{
+	width:50%;
+    background: #8ED2C9;
+    float: right;
+    text-align: center;
+}
+#right{
+    width:50%;
+	background: #8ED2C9;
+	float: left;
+    font-size:25px;
+    color:white;
+    
+}
+
+.clear{
+	clear: both;
+}
+
+#left img{
+    
+    border-radius:70px;
+    
+    
+}
+#right h3{
+    margin-top:30px;
+    margin-bottom:15px;
+    text-align:center;
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+#right h4{
+    margin-top:15px;
+    margin-bottom:8px;
+    text-align:center;
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+#links {
+    text-align:center;
+}
+
+
+
+#right img{
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin:5px;
+}
+@media screen and (max-width:700px){
+ #left,#right{
+     float:none;
+     width:100%;
+ }
+
+
+
+
+}
+
+   
